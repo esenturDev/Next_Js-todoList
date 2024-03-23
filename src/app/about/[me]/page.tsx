@@ -1,8 +1,8 @@
-import { MePages } from "@/appPages/components/pages/MePages";
-import React from "react";
+// import { MePages } from "@/appPages/components/pages/MePages";
+// import React from "react";
 
-const page = () => {
-	return <MePages />;
-};
+// const page = () => {
+// 	return <MePages />;
+// };
 
-export default page;
+// export default page;
