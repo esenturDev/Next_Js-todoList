@@ -16,7 +16,7 @@ import {
 const AboutMe = () => {
 	const { data: todoListGet = [], isLoading } = useGetTodosQuery();
 	console.log(todoListGet);
-	
+
 	const [postTodos] = usePostTodosMutation();
 	const [deleteTodos] = useDeleteTodosMutation();
 	const [title, setTitle] = useState("");
@@ -57,11 +57,13 @@ const AboutMe = () => {
 			</div>
 			{isLoading ? (
 				<>
-				<h1>isLoading...</h1>
-				{/* <h1>hello</h1>
-				 */}
-				 {/* <h1>Hello project!</h1> */}
-				  <p>Project</p>
+					<h1>isLoading...</h1>
+					{/* <h1>hello</h1>
+					 */}
+					{/* <h1>Hello project!</h1> */}
+					<p>Project</p>
+					<p>hello</p>
+					<p>update</p>
 				</>
 			) : (
 				todoListGet.map((item, index) => (
