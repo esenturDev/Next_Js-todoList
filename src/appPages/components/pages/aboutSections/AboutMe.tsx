@@ -60,7 +60,8 @@ const AboutMe = () => {
 				<h1>isLoading...</h1>
 				{/* <h1>hello</h1>
 				 */}
-				 <h1>Hello project!</h1>
+				 {/* <h1>Hello project!</h1> */}
+				  <p>Project</p>
 				</>
 			) : (
 				todoListGet.map((item, index) => (
