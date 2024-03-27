@@ -57,13 +57,8 @@ const AboutMe = () => {
 			</div>
 			{isLoading ? (
 				<>
-					<h1>isLoading...</h1>
-					{/* <h1>hello</h1>
-					 */}
-					{/* <h1>Hello project!</h1> */}
-					<p>Project</p>
-					<p>hello</p>
-					<p>update</p>
+					<h1>isLoading...!</h1>
+					
 				</>
 			) : (
 				todoListGet.map((item, index) => (
